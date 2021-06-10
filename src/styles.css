@@ -1,0 +1,68 @@
+body {
+  margin: 0;
+  padding: 10px;
+  font-family: 'Roboto', cursive;
+  font-size: 30px;
+  font-weight: 400;
+  color: #fff;
+  text-align: center;
+  text-shadow: 1px 1px 2px rgb(141, 129, 129);
+
+  background-image: url('./images/country.jpg');
+  background-size: cover;
+}
+
+li {
+  list-style: disc;
+}
+
+.title {
+  margin: 0 0 10px 0;
+}
+.input-search {
+  margin: 20px 0 20px 0;
+  padding: 0 15px 0 15px;
+  height: 45px;
+  min-width: 320px;
+  border-radius: 40px;
+  border: transparent;
+  outline: none;
+  box-shadow: 2px 2px 5px rgba(211, 153, 153, 0.5), 1px 1px 5px rgba(255, 255, 255, 1);
+  font-size: 20px;
+  font-weight: 500;
+  color: rgb(99, 94, 94);
+}
+
+.js-card-container {
+  text-align: left;
+}
+
+.list-countries {
+  margin: 0 auto;
+  width: 50%;
+}
+
+.list-countries p {
+  margin: 20px;
+}
+
+.country-card {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.country-info {
+  margin-right: 20px;
+}
+.country-name {
+  margin: 10px 0 10px 0;
+  font-size: 38px;
+  text-align: center;
+}
+.country-list {
+  margin-bottom: 10px;
+}
+.country-list p {
+  margin: 20px 0 20px 0;
+  font-weight: 700;
+}

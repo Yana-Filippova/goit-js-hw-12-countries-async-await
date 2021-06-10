@@ -1,0 +1,35 @@
+{
+  "name": "goit-js-hw-12-countries-async-await",
+  "version": "1.1.0",
+  "description": "",
+  "main": "index.js",
+  "homepage": "https://Yana-Filippova.io/goit-js-hw-12-countries-async-await",
+  "scripts": {
+    "dev": "parcel src/*.html",
+    "build": "parcel build src/*.html --public-url /goit-js-hw-12-countries-async-await/"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Yana-Filippova/goit-js-hw-12-countries-async-await.git"
+  },
+  "keywords": [],
+  "author": "Alexander Repeta <alexander.repeta@gmail.com>",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Yana-Filippova/goit-js-hw-12-countries-async-await/issues"
+  },
+  "devDependencies": {
+    "@pnotify/core": "^5.2.0",
+    "gh-pages": "^3.1.0",
+    "parcel-bundler": "^1.12.5",
+    "parcel-plugin-handlebars-precompile": "^1.0.2",
+    "posthtml-include": "^1.6.2",
+    "sass": "^1.32.8"
+  },
+  "dependencies": {
+    "@pnotify/bootstrap4": "^5.2.0",
+    "bootstrap": "^4.6.0",
+    "lodash.debounce": "^4.0.8",
+    "material-design-icons": "^3.0.1"
+  }
+}
